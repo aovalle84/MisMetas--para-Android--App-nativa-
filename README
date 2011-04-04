@@ -1,0 +1,7 @@
+MisMetas, una App nativa para Android
+Por Alejandro Ovalle @aovalle84
+-------------------------------------
+Este proyecto nació para comparar los nuevos tags de HTML5 Forms con algunos controles nativos de Android. Y se mostró en una reunión de Cultura Android Guatemala ( http://cultura-androidgt.org/ ) en marzo de 2011.
+
+El estado actual del proyecto es un prototipo de una aplicación para llevar el avance de metas personales. Por el momento solamente se definió la pantalla en base a Layouts; todavía no se tiene almacenamiento de metas.
+
