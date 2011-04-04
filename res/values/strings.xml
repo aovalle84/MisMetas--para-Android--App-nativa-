@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mis metas</string>
+    <string-array name="metas_array">
+    	<item>Diseño visual</item>
+        <item>Diseño de software</item>
+        <item>Contenido de texto</item>
+        <item>Contenido multimedia</item>
+    </string-array>
+</resources>

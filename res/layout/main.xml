@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    >
+	    <AutoCompleteTextView 
+	    	android:id="@+id/txtBusquedaAuto" 
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	>
+    	</AutoCompleteTextView>
+	    <Button
+	        android:id="@+id/buscar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/txtBusquedaAuto"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginLeft="10dip"
+	        android:text="Buscar" 
+	        />
+	</RelativeLayout>
+	
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="0"
+		android:layout_marginTop="20dip"
+		>
+		<TableRow 
+			android:layout_marginBottom="20dip"
+			>
+			<TextView
+				android:text="Diseño visual"
+				>
+			</TextView>
+			<SeekBar 
+				android:max="10"
+				android:progress="10"
+				android:minWidth="100dip"
+				>
+			</SeekBar>
+		</TableRow>
+		<TableRow 
+			android:layout_marginBottom="20dip"
+			>
+			<TextView
+				android:text="Diseño de software"
+				>
+			</TextView>
+			<SeekBar 
+				android:max="10"
+				android:progress="3"
+				android:minWidth="100dip"
+				>
+			</SeekBar>
+		</TableRow>
+		<TableRow 
+			android:layout_marginBottom="20dip"
+			>
+			<TextView
+				android:text="Contenido de texto"
+				>
+			</TextView>
+			<SeekBar 
+				android:max="10"
+				android:progress="7"
+				android:minWidth="100dip"
+				>
+			</SeekBar>
+		</TableRow>
+		<TableRow 
+			android:layout_marginBottom="20dip"
+			>
+			<TextView
+				android:text="Contenido multimedia"
+				>
+			</TextView>
+			<SeekBar 
+				android:max="10"
+				android:progress="9"
+				android:minWidth="100dip"
+				>
+			</SeekBar>
+		</TableRow>
+	</TableLayout>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+    	>
+		<Button 
+			android:text="Editar perfil" 
+			android:id="@+id/btnPerfil" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			>
+		</Button>
+	</LinearLayout>
+</LinearLayout>
